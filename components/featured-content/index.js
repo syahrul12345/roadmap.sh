@@ -1,10 +1,10 @@
 import { FeaturedWrap } from './style';
 import FeaturedGuides from './guides';
-import FeaturedRoadmaps from './roadmaps';
+import Projects from './projects';
 
 const FeaturedContent = (props) => (
   <FeaturedWrap className="border-top bg-light">
-    <FeaturedRoadmaps />
+    <Projects />
     <FeaturedGuides />
   </FeaturedWrap>
 );

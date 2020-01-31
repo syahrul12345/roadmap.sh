@@ -2,7 +2,7 @@ import { FeaturedContentWrap } from './style';
 import roadmaps from 'content/roadmaps';
 import FeaturedRoadmap from 'components/featured-roadmap';
 
-const FeaturedRoadmaps = () => (
+const Projects = () => (
   <FeaturedContentWrap className="featured-content-wrap">
     <div className="container">
       <div className="featured-head">
@@ -24,4 +24,4 @@ const FeaturedRoadmaps = () => (
   </FeaturedContentWrap>
 );
 
-export default FeaturedRoadmaps;
+export default Projects;

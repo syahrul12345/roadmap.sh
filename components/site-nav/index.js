@@ -9,11 +9,8 @@ const SiteNav = () => (
         </a>
       </div>
       <div className='nav-links'>
-        <a href='/roadmaps'>Roadmaps</a>
-        <a href='/guides'>Guides</a>
-        <a href='/sponsors'>Sponsors</a>
-        <a href='/about' className='d-none d-md-inline-block'>FAQ</a>
-        <a href='/signup' className='signup'>Subscribe</a>
+        <a href='/about' className='d-none d-md-inline-block'>Github</a>
+        <a href='/signup' className='signup'>Contact</a>
       </div>
     </div>
   </HeaderWrap>
